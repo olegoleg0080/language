@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/animate.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Average+Sans&family=Poppins:wght@400;500;600;700;800&family=Revalia&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
       rel="stylesheet"
@@ -42,33 +43,35 @@
             <svg class="light-svg">
               <use class="light" href="./img/bulb-icon.svg#light"></use>
             </svg>
-            <picture class="hero-img">
-              <source srcset="./img/Learning-languages-bro.webp 1x,
-                              ./img/Learning-languages-bro.webp 2x,
-                              ./img/Learning-languages-bro.webp 3x"
-                                type="image/webp" media="(max-width:320px)">
-              <img class="img-1" src="./img/Learning-languages-bro.webp" alt="no">
-              <source srcset="./img/Learning-languages2.webp 1x,
-                              ./img/Learning-languages2.webp 2x,
-                              ./img/Learning-languages2.webp 3x"
-                                type="image/webp" media="(max-width:575px)">
-              <img class="img-2" src="./img/Learning-languages2.webp" alt="no">
-              <source srcset="./img/Learning-languages3.webp 1x,
-                              ./img/Learning-languages3.webp 2x,
-                              ./img/Learning-languages3.webp 3x"
-                                type="image/webp" media="(max-width:768px)">
-              <img class="img-3" src="./img/Learning-languages3.webp" alt="no">
-              <source srcset="./img/Learning-languages4.webp 1x,
-                              ./img/Learning-languages4.webp 2x,
-                              ./img/Learning-languages4.webp 3x"
-                                type="image/webp" media="(max-width:992px)">
-              <img class="img-4" src="./img/Learning-languages4.webp" alt="no">
-              <source srcset="./img/Learning-languages5.webp 1x,
-                              ./img/Learning-languages5.webp 2x,
-                              ./img/Learning-languages5.webp 3x"
-                                type="image/webp" media="(min-width:992px)">
-              <img class="img-5" src="./img/Learning-languages5.webp" alt="no">
-            </picture>
+            <div class="wow animate__backInUp">
+              <picture class="hero-img wow animate__backInUp">
+                <source srcset="./img/Learning-languages-bro.webp 1x,
+                                ./img/Learning-languages-bro.webp 2x,
+                                ./img/Learning-languages-bro.webp 3x"
+                                  type="image/webp" media="(max-width:320px)">
+                <img class="img-1" src="./img/Learning-languages-bro.webp" alt="no">
+                <source srcset="./img/Learning-languages2.webp 1x,
+                                ./img/Learning-languages2.webp 2x,
+                                ./img/Learning-languages2.webp 3x"
+                                  type="image/webp" media="(max-width:575px)">
+                <img class="img-2" src="./img/Learning-languages2.webp" alt="no">
+                <source srcset="./img/Learning-languages3.webp 1x,
+                                ./img/Learning-languages3.webp 2x,
+                                ./img/Learning-languages3.webp 3x"
+                                  type="image/webp" media="(max-width:768px)">
+                <img class="img-3" src="./img/Learning-languages3.webp" alt="no">
+                <source srcset="./img/Learning-languages4.webp 1x,
+                                ./img/Learning-languages4.webp 2x,
+                                ./img/Learning-languages4.webp 3x"
+                                  type="image/webp" media="(max-width:992px)">
+                <img class="img-4" src="./img/Learning-languages4.webp" alt="no">
+                <source srcset="./img/Learning-languages5.webp 1x,
+                                ./img/Learning-languages5.webp 2x,
+                                ./img/Learning-languages5.webp 3x"
+                                  type="image/webp" media="(min-width:992px)">
+                <img class="img-5" src="./img/Learning-languages5.webp" alt="no">
+              </picture>
+            </div>
             <h1 class="h1-hero">Learn 
               Any Foreign
               Language</h1>
@@ -103,5 +106,9 @@
       </div>
   </div>
     <script src="madal.js"></script>
+    <script src="./js/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
