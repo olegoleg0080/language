@@ -190,6 +190,102 @@ header{
 .img-5 {
     display: block;
 }
+/* skills */ 
+
+.skils {
+    margin-top: 180px;
+}
+
+.skill-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+.skill-box {
+    display: inline-grid;
+    grid-template-columns: 426px 426px 426px;
+    grid-template-rows: 579px 338px;
+    gap: 30px;
+}
+.skill-block {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+.skil-container{
+    margin-left: 18px;
+}
+.skil-container > h2{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.skil-container > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.p-speak{
+    max-width: 347px;
+}
+.p-write{
+    max-width: 340px;
+}
+.p-read{
+    max-width: 359px;
+}
+.p-list{
+    max-width: 324px;
+}
+.skill-block.listening > .skil-container{
+    padding-top: 32px;
+    display: flex;
+} 
+.skil-container > button,
+.list-but{
+    width: 230px;
+    height: 60px;
+    margin-top: 30px;
+    background: #263238;
+    border-radius: 10px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+.speaking {
+grid-row-start:1;
+grid-row-end: 3;  
+}
+.skill-svg-speaking{
+    width: 390px;
+    height: 390px;
+    margin-top: 32px;
+}
+.skill-svg-writing{
+    width: 390px;
+    height: 264px;
+    margin-top: 32px;
+}
+.skill-svg-reading{
+    width: 390px;
+    height: 264px;
+    margin-top: 32px;
+}
+.listening {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.skill-svg-listening{
+    width: 408px;
+    height: 274px;
+    margin-left: 114px;
+    margin-top: 32px;
+}
+
 /* adaptiv */
 @media (max-width: 992px) {
     .container{
@@ -277,6 +373,101 @@ header{
     .img-5 {
         display: none;
     }
+
+    .skils {
+        margin-top: 72px;
+    }
+    
+    .skill-text {
+        font-size: 36px;
+        margin-bottom: 53px;
+    }
+    .skill-box {
+        display: inline-grid;
+        grid-template-columns: 303px 303px 303px;
+        grid-template-rows: 441px 241px;
+        gap: 13px;
+    }
+    .skill-block {
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+    .skil-container{
+        margin-left: 28px;
+    }
+    .skil-container > h2{
+        font-size: 22px;
+        margin-bottom: 16px;
+        margin-top: 0;
+        margin-left: 1px;
+    }
+    .skil-container > p{
+        font-size: 14px;
+    }
+    .p-speak{
+        max-width: 262px;
+    }
+    .p-write{
+        max-width: 244px;
+    }
+    .p-read{
+        max-width: 242px;
+    }
+    .p-list{
+        max-width: 358px;
+    }
+    .skill-block.listening > .skil-container{
+        padding-top: 0;
+        display: flex;
+    } 
+    .skil-container > button{
+        width: 196px;
+        height: 57px;
+        margin-top: 30px;
+        background: #263238;
+        border-radius: 5px;
+        
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+    }
+    .list-but{
+        margin-top: 11px;
+    }
+    .speaking {
+    grid-row-start:1;
+    grid-row-end: 3;  
+    }
+    .skill-svg-speaking{
+        width: 260px;
+        height: 260px;
+        margin-top: 0;
+    }
+    .skill-svg-writing{
+        width: 205px;
+        height: 205px;
+        margin-top: 0;
+        margin-left: 59px;
+    }
+    .skill-svg-reading{
+        width: 243px;
+        height: 162px;
+        margin-top: 16px;
+        margin-left: -25px;
+    }
+    .listening {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .skill-svg-listening{
+        width: 254px;
+        height: 169px;
+        margin-left: 30px;
+        margin-top: 32px;
+    }
+    
+
 }   
 @media (max-width: 768px) {
     .container{
@@ -477,7 +668,7 @@ header{
         font-size: 24px;
         line-height: 1.5;
         width: 220px;
-        margin-left: 50px;
+        margin-left: 36px;
     }
     .p-hero{
         text-align: center;
@@ -485,7 +676,7 @@ header{
         font-size: 14px;
         line-height: 1.5;
         width: 292px;
-        margin: 20px 0 33px 45px;
+        margin: 20px 0 33px 0;
     
         color: #8F95A5;
     }
@@ -514,7 +705,7 @@ header{
         width: 34px ;
         height: 19px;
         display: block;
-        margin-right: -50px;
+        margin-right: 0px;
     }
     .img-1 {
         display: block;
