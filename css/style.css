@@ -3,6 +3,15 @@ body{
     font-family: Poppins;
     margin: 0;
 }
+.kak{
+    display: none;
+    position: absolute;
+    width: 1600px;
+    height: 1100px;
+}
+.h2-about2{
+    display: none;
+}
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
@@ -29,6 +38,7 @@ button{
 
 /* header */
 header{
+    position: relative;
     margin-top: 55px;
 }
 .logo1{
@@ -86,7 +96,6 @@ header{
     background: transparent;
     border: 0;
     right: 39px;
-    top: 53px;
 }
 /* hero */
 .hero{
@@ -136,7 +145,6 @@ header{
 /* madal*/
 
 .madal-block {
-    display: none;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -226,6 +234,7 @@ header{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    color: #8F95A5;
 }
 .p-speak{
     max-width: 347px;
@@ -238,6 +247,7 @@ header{
 }
 .p-list{
     max-width: 324px;
+    color: #8F95A5;
 }
 .skill-block.listening > .skil-container{
     padding-top: 32px;
@@ -283,9 +293,74 @@ grid-row-end: 3;
     width: 408px;
     height: 274px;
     margin-left: 114px;
-    margin-top: 32px;
 }
 
+.is-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+/* ABOUT */
+.about {
+    margin-top: 180px;
+}
+.about> .container{
+    display: flex;
+}
+.h2-about {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+}
+.p-about {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 650px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    color: #8F95A5;
+}
+.numb {
+    margin-left: 51px;
+    display: inline-flex;
+    column-gap: 131px;
+}
+.number {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    width: 97px;
+    justify-content: center;
+
+    color: #2A3246;
+}
+.p-numb{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 97px;
+    
+    color: #8F95A5;
+}
+.about-svg{
+    width: 540px;
+    height: 540px;
+    margin-left: 146px;
+}
 /* adaptiv */
 @media (max-width: 992px) {
     .container{
@@ -401,6 +476,12 @@ grid-row-end: 3;
         margin-top: 0;
         margin-left: 1px;
     }
+    h2.read{
+        margin-top: 27px;
+    }
+    .list-content{
+        margin-top: 30px;
+    }
     .skil-container > p{
         font-size: 14px;
     }
@@ -467,9 +548,55 @@ grid-row-end: 3;
         margin-top: 32px;
     }
     
-
+    .about {
+        margin-top: 110px;
+    }
+    .about> .container{
+        display: flex;
+    }
+    .h2-about {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.5;
+    }
+    .p-about {
+        font-size: 16px;
+        line-height: 1.8;
+        max-width: 526px;
+        margin-top: 18px;
+        margin-bottom: 26px;
+    
+        color: #8F95A5;
+    }
+    .numb {
+        margin-left: 7px;
+        display: inline-flex;
+        column-gap: 58px;
+    }
+    .number {
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 30px;
+        width: 93px;
+        justify-content: center;
+    
+        color: #2A3246;
+    }
+    .p-numb{
+        font-size: 16px;
+        text-align: center;
+        max-width: 93px;
+        
+        color: #8F95A5;
+    }
+    .about-svg{
+        width: 336px;
+        height: 336px;
+        margin-left: 75px;
+    }
 }   
 @media (max-width: 768px) {
+    
     .container{
         margin-left: 39px;
     }
@@ -538,7 +665,7 @@ grid-row-end: 3;
     }
     .madal-open{
         display: block;
-        margin-right: 39px;
+        right: 39px;
     }
     .img-1 {
         display: none;
@@ -555,13 +682,166 @@ grid-row-end: 3;
     .img-5 {
         display: none;
     }
+
+    .skils {
+        margin-top: 56px;
+    }
+    
+    .skill-text {
+        font-size: 30px;
+        margin-bottom: 37px;
+    }
+    .skill-box {
+        display: inline-grid;
+        grid-template-columns: 224px 224px 224px;
+        grid-template-rows: 441px 210px;
+        gap: 10px;
+    }
+    .skill-block {
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+    .skil-container{
+        margin-left: 16px;
+    }
+    .skil-container > h2,
+    .list-content > h2{
+        font-size: 20px;
+        margin-bottom: 6px;
+        margin-top: 0;
+        margin-left: 1px;
+    }
+    h2.read{
+        margin-top: 27px;
+    }
+    .list-content{
+        margin-top: 20px;
+    }
+    .skil-container > p{
+        font-size: 13px;
+    }
+    .p-speak{
+        max-width: 197px;
+    }
+    .p-write{
+        max-width: 188px;
+    }
+    .p-read{
+        max-width: 180px;
+    }
+    .p-list{
+        max-width: 260px;
+        font-size: 13px;
+    }
+    .skill-block.listening > .skil-container{
+        padding-top: 0;
+        display: flex;
+    } 
+    .skil-container > button{
+        width: 178px;
+        height: 50px;
+        margin-top: 20px;
+        background: #263238;
+        border-radius: 5px;
+        
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+    }
+    .list-but{
+        margin-top: 11px;
+        width: 178px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .speaking {
+    grid-row-start:1;
+    grid-row-end: 3;  
+    }
+    .skill-svg-speaking{
+        width: 214px;
+        height: 214px;
+        margin-top: 31px;
+        margin-left: -16px;
+    }
+    .skill-svg-writing{
+        width: 200px;
+        height: 200px;
+        margin-top: 0;
+        margin-left: -13px;
+    }
+    .skill-svg-reading{
+        width: 216px;
+        height: 144px;
+        margin-top: 16px;
+        margin-left: -25px;
+    }
+    .listening {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .skill-svg-listening{
+        width: 202px;
+        height: 134px;
+        margin-left: 0;
+        margin-top: 59px;
+    }
+
+    .about {
+        margin-top: 52px;
+    }
+    .about> .container{
+        display: flex;
+    }
+    .h2-about {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .p-about {
+        font-size: 14px;
+        line-height: 1.8;
+        max-width: 321px;
+        margin-top: 25px;
+        margin-bottom: 37px;
+    
+        color: #8F95A5;
+    }
+    .numb{
+        margin-left: 8px;
+        display: inline-flex;
+        column-gap: 45px;
+    }
+    .number{
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 22px;
+        width: 71px;
+        justify-content: center;
+    
+        color: #2A3246;
+    }
+    .p-numb{
+        font-size: 13px;
+        text-align: center;
+        max-width: 78px;
+        
+        color: #8F95A5;
+    }
+    .about-svg{
+        width: 295px;
+        height: 295px;
+        margin-left: 75px;
+        margin-top: 36px;
+    }
 }  
 @media (max-width: 575px) {
-    .container{
-        margin-left: 32px;
-    }
     .nav-menu-list{
         display: none;
+    }
+    .container{
+        margin: 0 auto;
     }
     .logo1{
         font-weight: 400;
@@ -638,6 +918,199 @@ grid-row-end: 3;
     }
     .img-5 {
         display: none;
+    }
+    .hero > .container{
+        margin-left: 0;
+    }
+
+    .skils {
+        margin-top: 96px;
+    }
+    
+    .skill-text {
+        font-size: 30px;
+        margin-bottom: 63px;
+    }
+    .skill-box {
+        display: inline-grid;
+        grid-template-columns: 240px 240px;
+        grid-template-rows: 534px 534px;
+        gap: 10px;
+        margin-left: 32px;
+    }
+    .skill-block {
+        background-color: #F5F5F5;
+        border-radius: 10px;
+    }
+    .speaking > .skil-container{
+        margin-left: 15px;
+    }
+    .reading > .skil-container{
+        margin-left: 15px;
+    }
+    .writing > .skil-container{
+        margin-left: 19px;
+    }
+    .listening > .skil-container{
+        margin-left: 19px;
+    }
+    .skil-container > h2,
+    .list-content > h2{
+        font-size: 18px;
+        margin-bottom: 13px;
+        margin-top: 14px;
+        margin-left: 0;
+    }
+    .list-content{
+        margin-top: 19px;
+    }
+    .skil-container > p{
+        font-size: 12px;
+    }
+    .p-speak{
+        max-width: 183px;
+    }
+    .p-write{
+        max-width: 172px;
+    }
+    .p-read{
+        max-width: 180px;
+    }
+    .p-list{
+        max-width: 214px;
+        font-size: 12px;    
+    }
+    .skill-block.listening > .skil-container{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    .skil-container > button{
+        width: 200px;
+        height: 50px;
+        margin-top: 0;
+        background: #263238;
+        border-radius: 5px;
+        
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+    }
+    .list-but{
+        margin-top: 112px;
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    button.speak-btn{
+        margin-top: 24px;
+    }
+    button.write-btn{
+        margin-top: 131px;
+    }
+    button.read-btn{
+        margin-top: 121px;
+    }
+    .speaking {
+    grid-row-start:1;
+    grid-row-end: 1;  
+    }
+    .skill-svg-speaking{
+        width: 185px;
+        height: 185px;
+        margin-top: -19px;
+        margin-left: -6px;
+    }
+    .skill-svg-writing{
+        width: 182px;
+        height: 182px;
+        margin-top: 3px;
+        margin-left: 4px;
+    }
+    .skill-svg-reading{
+        width: 198px;
+        height: 132px;
+        margin-top: 30px;
+        margin-left: -13px;
+    }
+    .listening {
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
+    .skill-svg-listening{
+        width: 206px;
+        height: 137px;
+        margin-left: -7px;
+        margin-top: 38px;
+    }
+    .about {
+        margin-top: 52px;
+    }
+    .about> .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .h2-about2 {
+        display:block;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .h2-about {
+        display: none;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .p-about {
+        font-size: 14px;
+        line-height: 1.8;
+        max-width: 510px;
+        margin-top: 25px;
+        margin-bottom: 37px;
+        margin-left: 33px;
+        text-align: center;
+    
+        color: #8F95A5;
+    }
+    .numb{
+        display:flex;
+        column-gap: 89px;
+        justify-content: center;
+    }
+    .number{
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 24px;
+        width: 81px;
+        justify-content: center;
+    
+        color: #2A3246;
+    }
+    .p-numb{
+        font-size: 14px;
+        text-align: center;
+        max-width: 81px;
+        
+        color: #8F95A5;
+    }
+    .about-svg{
+        width: 352px;
+        height: 352px;
+        margin-left: 114px;
+        margin-top: 36px;
+    }
+    .kak{
+        position: absolute;
+        display: block;
+        width: 300px;
+        height: 300px;
+        left: 45%;
+        top: -15%;
     }
 }  
 @media (max-width: 320px) {
@@ -721,5 +1194,198 @@ grid-row-end: 3;
     }
     .img-5 {
         display: none;
+    }
+    .skils {
+        margin-top: 80px;
+    }
+    
+    .skill-text {
+        font-size: 24px;
+        margin-bottom: 63px;
+    }
+    .skill-box {
+        display: inline-grid;
+        grid-template-columns: 290px;
+        grid-template-rows: 473px;
+        row-gap: 10px;
+        margin-left: 0;
+    }
+    .skill-block {
+        background-color: #F5F5F5;
+        border-radius: 5px;
+    }
+    .speaking > .skil-container{
+        margin-left: 13px;
+    }
+    .reading > .skil-container{
+        margin-left: 13px;
+    }
+    .writing > .skil-container{
+        margin-left: 13px;
+    }
+    .listening > .skil-container{
+        margin-left: 13px;
+    }
+    .skil-container > h2,
+    .list-content > h2{
+        font-size: 18px;
+        margin-bottom: 11px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .list-content{
+        margin-top: 20px;
+    }
+    .skil-container > p{
+        font-size: 13px;
+    }
+    .p-speak{
+        max-width:258px;
+    }
+    .p-write{
+        max-width:258px;
+    }
+    .p-read{
+        max-width:258px;
+    }
+    .p-list{
+        max-width: 258px;
+        font-size: 13px;    
+    }
+    .skill-block.listening > .skil-container{
+        padding-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    .skil-container > button{
+        width: 178px;
+        height: 50px;
+        margin-top: 0;
+        background: #263238;
+        border-radius: 5px;
+        
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #fff;
+    }
+    .list-but{
+        margin-top: 34px;
+        width: 178px;
+        height: 50px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    button.speak-btn{
+        margin-top: 34px;
+    }
+    button.write-btn{
+        margin-top: 34px;
+    }
+    button.read-btn{
+        margin-top: 34px;
+    }
+    
+    .speaking{
+    grid-row-start:1;
+    grid-row-end: 1;  
+    }
+    .skill-block.speaking{
+        height: 600px;
+    }
+    .writing{
+        margin-top: 127px;
+    }
+    .skill-svg-speaking{
+        width: 213px;
+        height: 213px;
+        margin-top: 8px;
+        margin-left: 26px;
+    }
+    .skill-svg-writing{
+        width: 204px;
+        height: 204px;
+        margin-top: 16px;
+        margin-left: 31px;
+    }
+    .skill-svg-reading{
+        width: 236px;
+        height: 157px;
+        margin-top: 30px;
+        margin-left: 16px;
+    }
+    .listening {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .skill-svg-listening{
+        width: 232px;
+        height: 154px;
+        margin-left: -7px;
+        margin-top: 38px;
+    }
+    .about {
+        margin-top: 50px;
+    }
+    .about> .container{
+        margin-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .h2-about2 {
+        display:block;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .p-about {
+        font-size: 13px;
+        line-height: 1.8;
+        max-width: 295px;
+        margin-top: 23px;
+        margin-bottom: 40px;
+        margin-left: 16px;
+        text-align: center;
+    
+        color: #8F95A5;
+    }
+    .numb{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .number{
+        display: inline-flex;
+        flex-wrap: wrap;
+        font-size: 24px;
+        width: 81px;
+        justify-content: center;
+    
+        color: #2A3246;
+    }
+    .p-numb{
+        font-size: 13px;
+        text-align: center;
+        max-width: 81px;
+        
+        color: #8F95A5;
+    }
+    .about-svg{
+        width: 283px;
+        height: 283px;
+        margin-left: 19px;
+        margin-top: 36px;
+    }
+    .kak{
+        position: absolute;
+        display: none;
+        width: 300px;
+        height: 300px;
+        left: 45%;
+        top: -15%;
     }
 }  
