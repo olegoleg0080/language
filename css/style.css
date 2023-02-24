@@ -460,6 +460,68 @@ overflow: hidden;
 
     color: #546269;
 }
+/* contact*/
+.contact {
+    margin-top: 180px;
+}
+.contact > .container{
+    display: flex;
+}
+.svg-contact {
+    width: 425px;
+    height: 430px;
+}
+.contact-cont {
+    margin-left: 144px;
+}
+.h2-contact2 {
+display: none;
+}
+.h2-contact {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+}
+.p-contact {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 621px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    color: #8F95A5;
+}
+.mail {
+    display: flex;
+}
+.input-email {
+    width: 395px;
+    height: 70px;
+    margin-right: 30px;
+    padding-left: 30px;
+    color: #8F95A5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+}
+.sub {
+    width: 312px;
+    height: 70px;
+    text-align: center;
+    background-color: #263238;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 /* adaptiv */
 @media (max-width: 992px) {
     .container{
@@ -789,6 +851,63 @@ overflow: hidden;
         text-align: center;
     
         color: #546269;
+    }
+
+    /* contact*/
+    .contact {
+        margin-top: 136px;
+    }
+    .contact > .container{
+        display: flex;
+    }
+    .svg-contact {
+        width: 312px;
+        height: 281px;
+    }
+    .contact-cont {
+        margin-left: 110px;
+    }
+    .h2-contact {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 2.2;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 440px;
+        margin-top: 3px;
+        margin-bottom: 34px;
+
+        color: #8F95A5;
+    }
+    .mail {
+        display: flex;
+    }
+    .input-email {
+        width: 285px;
+        height: 60px;
+        margin-right: 14px;
+        padding-left: 38px;
+        color: #8F95A5;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+    }
+    .sub {
+        width: 196.2px;
+        height: 63.2px;
+        text-align: center;
+        border-radius: 10px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
     }
 }   
 @media (max-width: 768px) {
@@ -1130,6 +1249,62 @@ overflow: hidden;
         text-align: center;
     
         color: #546269;
+    }
+        /* contact*/
+    .contact {
+        margin-top: 65px;
+    }
+    .contact > .container{
+        display: flex;
+    }
+    .svg-contact {
+        width: 233px;
+        height: 210px;
+    }
+    .contact-cont {
+        margin-left: 36px;
+    }
+    .h2-contact {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.4;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 392px;
+        margin-top: 0;
+        margin-bottom: 26px;
+
+        color: #8F95A5;
+    }
+    .mail {
+        display: flex;
+    }
+    .input-email {
+        width: 255.4px;
+        height: 46.4px;
+        margin-right: 6px;
+        padding-left: 24px;
+        color: #8F95A5;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        
+        border: 1px solid #8F95A5;
+        border-radius: 5px;
+    }
+    .sub {
+        width: 145px;
+        height: 50px;
+        text-align: center;
+        border-radius: 5px;
+
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 1.5;
     }
 }  
 @media (max-width: 575px) {
@@ -1515,6 +1690,78 @@ overflow: hidden;
     
         color: #546269;
     }
+    /* contact*/
+    .contact {
+        margin-top: 163px;
+    }
+    .contact > .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .svg-contact {
+        width: 358px;
+        height: 322px;
+    }
+    .contact-cont {
+        margin-left: 33px;
+    }
+    .h2-contact2 {
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .h2-contact {
+        display: none;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.7;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        max-width: 469px;
+        margin-top: 34px;
+        margin-bottom: 60px;
+        margin-left: 21px;
+        text-align: center;
+    
+        color: #8F95A5;
+    }
+    .mail {
+        display: flex;
+    }
+    .input-email {
+        width: 482.4px;
+        height: 56.4px;
+        margin-right: 0;
+        padding-left: 25px;
+        color: #8F95A5;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.5;
+    
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+    }
+    .sub {
+        width: 193px;
+        height: 60px;
+        text-align: center;
+        background-color: #263238;
+        border-radius: 10px;
+        margin-left: -193px;
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
 }  
 @media (max-width: 320px) {
     .container{
@@ -1896,5 +2143,81 @@ overflow: hidden;
         text-align: center;
     
         color: #546269;
+    }
+    /* contact*/
+    .contact {
+        margin-top: 72px;
+    }
+    .contact > .container{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .svg-contact {
+        width: 253px;
+        height: 228px;
+    }
+    .contact-cont {
+        margin-left: 0;
+    }
+    .h2-contact2 {
+        display: block;
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 3.3;
+    }
+    .h2-contact {
+        display: none;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.7;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        max-width: 287px;
+        margin-top: 38px;
+        margin-bottom: 60px;
+        margin-left: 2px;
+        text-align: center;
+    
+        color: #8F95A5;
+    }
+    .mail {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 17px;
+    }
+    .input-email {
+        width: 260.4px;
+        height: 46.4px;
+        margin-right: 0;
+        padding-left: 26px;
+        color: #8F95A5;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+    
+        border: 1px solid #8F95A5;
+        border-radius: 5px;
+    }
+    .sub {
+        width: 290px;
+        height: 60px;
+        text-align: center;
+        background-color: #263238;
+        border-radius: 5px;
+        margin-left: 0;
+    
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
     }
 }  
