@@ -1,4 +1,8 @@
 /* reset */
+.kak{
+    position: absolute;
+    right: 0;
+}
 body{
     font-family: Poppins;
     margin: 0;
@@ -1681,7 +1685,7 @@ display: none;
         margin-left: 114px;
         margin-top: 36px;
     }
-
+    .kak
     /*pricing*/
     .Pricin{
         margin-top: 130px;
