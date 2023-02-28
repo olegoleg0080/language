@@ -3,12 +3,6 @@ body{
     font-family: Poppins;
     margin: 0;
 }
-.kak{
-    display: none;
-    position: absolute;
-    width: 1600px;
-    height: 1100px;
-}
 .h2-about2{
     display: none;
 }
@@ -1687,14 +1681,6 @@ display: none;
         margin-left: 114px;
         margin-top: 36px;
     }
-    .kak{
-        position: absolute;
-        display: none;
-        width: 300px;
-        height: 300px;
-        left: 45%;
-        top: -15%;
-    }
 
     /*pricing*/
     .Pricin{
@@ -2236,14 +2222,6 @@ display: none;
         height: 283px;
         margin-left: 19px;
         margin-top: 36px;
-    }
-    .kak{
-        position: absolute;
-        display: none;
-        width: 300px;
-        height: 300px;
-        left: 45%;
-        top: -15%;
     }
 
     /*pricing*/
