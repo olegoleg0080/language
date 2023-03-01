@@ -197,6 +197,9 @@ header > .container{
         height: 100%;
     }
     .modal-close {
+        position: absolute;
+        top: 54px;
+        right: 23px;
         border: 0;
         background: transparent;
     }
@@ -299,7 +302,8 @@ header > .container{
         height: 100%;
     }
     .modal-close {
-        transform: translateY(-25%);
+        top: 22px;
+        right: 15px;
         border: 0;
         background: transparent;
     }
