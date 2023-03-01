@@ -146,6 +146,7 @@ header > .container{
         display: none;
     }
     header > .container{
+        padding: 0;
         display: flex;
     }
     .logo{
@@ -248,6 +249,7 @@ header > .container{
         display: none;
     }
     header > .container{
+        padding: 0;
         display: flex;
     }
     .logo{
