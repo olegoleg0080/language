@@ -1,4 +1,10 @@
 /* reset */
+html{
+    box-sizing: border-box;
+}
+  html *, ::after, ::before{
+    box-sizing: inherit;
+}
 body{
     font-family: Poppins;
     margin: 0;
@@ -53,6 +59,7 @@ button{
     max-width: 291px;
 }
 .madal {
+    overflow: auto;
     position: relative;
     padding-top: 39px;
     background-color: #fff;
@@ -60,6 +67,9 @@ button{
     height: 100%;
 }
 .modal-close {
+    position: absolute;
+    right: 15px;
+    top: 22px;
     border: 0;
     background: transparent;
 }
@@ -87,16 +97,15 @@ button{
 }
 /*header*/
 header{
-    margin-top: 36px;
+    padding-top: 36px;
 }
 .nav-menu{
     display: none;
 }
 header > .container{
+    align-items: center;
     display: flex;
-}
-a.logo-a{
-margin-right: 186px;
+    justify-content: space-between;
 }
 .logo{
     font-weight: 400;
@@ -105,6 +114,10 @@ margin-right: 186px;
 }
 .logo>span{
     color: #939393;
+}
+.modal-open{
+    width: 34px;
+    height: 19px;
 }
 .svg-modal-open{
     width: 34px;
@@ -119,7 +132,7 @@ margin-right: 186px;
 /*adaptive*/
 @media (min-width:575px){
     header{
-        margin-top: 39px;
+        padding-top: 39px;
     }
     header>.container{
         max-width: 493px;
@@ -140,6 +153,10 @@ margin-right: 186px;
     }
     .logo>span{
         color: #939393;
+    }
+    .modal-open{
+        width: 42px;
+        height: 24px;
     }
     .svg-modal-open{
         width: 42px;
@@ -214,7 +231,7 @@ margin-right: 186px;
 }
 @media (min-width:767px){
     header{
-        margin-top: 39px;
+        padding-top: 39px;
     }
     header>.container{
         max-width: 690px;
@@ -235,6 +252,10 @@ margin-right: 186px;
     }
     .logo>span{
         color: #939393;
+    }
+    .modal-open{
+        width: 30px;
+        height: 17px;
     }
     .svg-modal-open{
         width: 30px;
@@ -313,7 +334,7 @@ margin-right: 186px;
 }
 @media (min-width:992px){
     header{
-        margin-top: 25px;
+        padding-top: 25px;
     }
     header>.container{
         max-width: 930px;
@@ -369,7 +390,7 @@ margin-right: 186px;
 }
 @media (min-width:1600px){
     header{
-        margin-top: 55px;
+        padding-top: 55px;
     }
     header>.container{
         max-width: 1338px;
