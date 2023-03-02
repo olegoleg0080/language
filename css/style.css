@@ -2,7 +2,7 @@
 html{
     box-sizing: border-box;
 }
-  html *, ::after, ::before{
+html *, ::after, ::before{
     box-sizing: inherit;
 }
 body{
@@ -49,9 +49,6 @@ header > .container{
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
-}
-.hero-cont{
-    align-items: center;
 }
 .logo>span{
     color: #939393;
@@ -145,6 +142,9 @@ header > .container{
     flex-direction: column;
     align-items: center;
 }
+.hero-cont{
+    align-items: center;
+}
 .hero-img{
     padding: 0 11px 0 11px;
 }
@@ -198,9 +198,6 @@ header > .container{
     a.logo-a{
         margin-right: 362px;
     }
-    .nav-menu{
-        display: none;
-    }
     header > .container{
         padding: 0;
         display: flex;
@@ -209,9 +206,6 @@ header > .container{
         font-weight: 400;
         font-size: 30px;
         line-height: 1.5;
-    }
-    .logo>span{
-        color: #939393;
     }
     .modal-open{
         width: 42px;
@@ -222,29 +216,6 @@ header > .container{
         height: 24px;
     }
     /*modal*/
-    .is-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-        }
-    .madal-block {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        background-color: rgba(7, 34, 47, 0.8);
-    }
-    .modal-header{
-        display: flex;
-    }
     .madal-container{
         max-width: 510px;
     }
@@ -351,9 +322,6 @@ header > .container{
     a.logo-a{
         margin-right: 571px;
     }
-    .nav-menu{
-        display: none;
-    }
     header > .container{
         padding: 0;
         display: flex;
@@ -362,9 +330,6 @@ header > .container{
         font-weight: 400;
         font-size: 30px;
         line-height: 1.5;
-    }
-    .logo>span{
-        color: #939393;
     }
     .modal-open{
         width: 30px;
@@ -377,29 +342,6 @@ header > .container{
     /*modal*/
     a.logo-a.modal768{
         margin-right: 247px;
-    }
-    .is-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-        }
-    .madal-block {
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        background-color: rgba(7, 34, 47, 0.8);
-    }
-    .modal-header{
-        display: flex;
     }
     .madal-container{
         max-width: 364px;
@@ -523,9 +465,6 @@ header > .container{
         font-size: 30px;
         line-height: 1.5;
     }
-    .logo>span{
-        color: #939393;
-    }
     .nav-menu{
         display: flex;
         align-items: center;
@@ -578,7 +517,6 @@ header > .container{
         margin-left: 57px;
     }
     .light{
-    position: absolute;
     margin-top: 103px;
     margin-left: 306px;
     width: 59px;
@@ -637,9 +575,6 @@ header > .container{
         font-size: 36px;
         line-height: 1.5;
     }
-    .logo>span{
-        color: #939393;
-    }
     .nav-menu{
         display: flex;
         align-items: center;
@@ -692,7 +627,6 @@ header > .container{
         margin-left: 57px;
     }
     .light{
-    position: absolute;
     margin-top: 103px;
     margin-left: 306px;
     width: 59px;
@@ -751,7 +685,6 @@ header > .container{
         margin-left: 144px;
     }
     .light{
-        position: absolute;
         margin-top: 92px;
         margin-left: 420px;
         width: 85px;
