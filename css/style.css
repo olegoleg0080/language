@@ -25,7 +25,9 @@ ul {
     padding: 0;
     list-style: none;
 }
-
+.lol{
+    display: none;
+}
 button{
     cursor: pointer;
     padding: 0;
@@ -339,6 +341,103 @@ header > .container{
     line-height: 1.5;
     color: #8F95A5;
 }
+/*pricing*/
+.title-pric{
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.3;
+}
+.Pricing {
+    text-align: center;
+    padding-top: 84px;
+}
+.Pricing>.container {
+    max-width: 280px;
+}
+.prics {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+.pric {
+    text-align: center;
+}
+.svg-pric.self{
+    width: 248px;
+    height: 248px;
+    margin-bottom: 28px;
+}
+.svg-pric.live{
+    width: 257px;
+    height: 197px;
+    margin-bottom: 12px;
+}
+.svg-pric.person{
+    width: 241px;
+    height: 241px;
+    margin-bottom: 7px;
+}
+.h2-pric {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #263238;
+}
+.p-pric{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+
+    color: #8F95A5;
+}
+.p-pric.self{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 272px;
+    margin-top: 17px;
+    margin-bottom: 33px;
+}
+.p-pric.live{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 242px;
+    margin-top: 22px;
+    margin-bottom: 31px;
+}
+.p-pric.person{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+    margin-top: 30px;
+    margin-bottom: 38px;
+}
+.price {
+    width: 170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #EEEEEE;
+    border-radius: 5px;
+}
+.h2-price {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #263238;
+}
+.p-price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #546269;
+}
 /*adaptive*/
 @media (min-width:574px){
     header{
@@ -622,6 +721,96 @@ header > .container{
         font-size: 14px;
         line-height: 1.5;
         color: #8F95A5;
+    }
+    /*pricing*/
+    .title-pric{
+        margin-bottom: 54px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.7;
+    }
+    .Pricing {
+        text-align: center;
+        padding-top: 130px;
+    }
+    .Pricing>.container {
+        max-width: 394px;
+    }
+    .prics {
+        display: flex;
+        flex-direction: column;
+        row-gap: 71px;
+    }
+    .svg-pric.self{
+        width: 291px;
+        height: 291px;
+        margin-bottom: 29px;
+    }
+    .svg-pric.live{
+        width: 314px;
+        height: 314px;
+        margin-bottom: 21px;
+    }
+    .svg-pric.person{
+        width: 253px;
+        height: 253px;
+        margin-bottom: 15px;
+    }
+    .h2-pric {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.2;
+        color: #263238;
+    }
+    .p-pric{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: center;
+
+        color: #8F95A5;
+    }
+    .p-pric.self{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 394px;
+        margin-top: 23px;
+        margin-bottom: 31px;
+    }
+    .p-pric.live{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 329px;
+        margin-top: 19px;
+        margin-bottom: 31px;
+    }
+    .p-pric.person{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 356px;
+        margin-top: 21px;
+        margin-bottom: 31px;
+    }
+    .price {
+        width: 205px;
+        height: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        background: #EEEEEE;
+        border-radius: 5px;
+    }
+    .h2-price {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #263238;
+    }
+    .p-price {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #546269;
     }
 }
 @media (min-width:767px){
@@ -969,6 +1158,98 @@ header > .container{
         line-height: 1.5;
         color: #8F95A5;
     }
+    /*pricing*/
+    .title-pric{
+        margin-bottom: 26px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.7;
+    }
+    .Pricing {
+        text-align: center;
+        padding-top: 87px;
+    }
+    .Pricing>.container {
+        max-width: 718px;
+    }
+    .prics {
+        display: flex;
+        flex-direction: row;
+        column-gap: 35px;
+    }
+    .svg-pric.self{
+        width: 197px;
+        height: 197px;
+        margin-bottom: 23px;
+    }
+    .svg-pric.live{
+        width: 219px;
+        height: 168px;
+        margin-top: 29px;
+        margin-bottom: 23px;
+    }
+    .svg-pric.person{
+        width: 210px;
+        height: 210px;
+        margin-bottom: 15px;
+    }
+    .h2-pric {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.2;
+        text-align: start;
+        color: #263238;
+    }
+    .h2-pric.pers{
+        max-width: 94px;
+    }
+    .p-pric{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: start;
+
+        color: #8F95A5;
+    }
+    .p-pric.self{
+        margin-left: 0;
+        max-width: 195px;
+        margin-top: 9px;
+        margin-bottom: 30px;
+    }
+    .p-pric.live{
+        margin-left: 0;
+        max-width: 213px;
+        margin-top: 9px;
+        margin-bottom: 50px;
+    }
+    .p-pric.person{
+        margin-left: 0;
+        max-width: 225px;
+        margin-top: 9px;
+        margin-bottom: 49px;
+    }
+    .price {
+        width: 205px;
+        height: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        background: #EEEEEE;
+        border-radius: 5px;
+    }
+    .h2-price {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #263238;
+    }
+    .p-price {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #546269;
+    }
 }
 @media (min-width:991px){
     header{
@@ -1266,6 +1547,100 @@ header > .container{
         font-size: 16px;
         line-height: 1.5;
         color: #8F95A5;
+    }
+    /*pricing*/
+    .title-pric{
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 2.2;
+    }
+    .Pricing {
+        text-align: center;
+        padding-top: 101px;
+    }
+    .Pricing>.container {
+        max-width: 927px;
+    }
+    .prics {
+        display: flex;
+        flex-direction: row;
+        column-gap: 43px;
+    }
+    .svg-pric.self{
+        width: 222px;
+        height: 222px;
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+    .svg-pric.live{
+        width: 267px;
+        height: 195px;
+        margin-top: 37px;
+        margin-bottom: 22px;
+    }
+    .svg-pric.person{
+        width: 242px;
+        height: 242px;
+        margin-bottom: 12px;
+    }
+    .h2-pric {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 2.2;
+        text-align: start;
+        color: #263238;
+    }
+    .h2-pric.pers{
+        max-width: 180px;
+    }
+    .p-pric{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: start;
+
+        color: #8F95A5;
+    }
+    .p-pric.self{
+        margin-left: 0;
+        max-width: 293px;
+        margin-top: 14px;
+        margin-bottom: 31px;
+    }
+    .p-pric.live{
+        margin-left: 0;
+        max-width: 255px;
+        margin-top: 14px;
+        margin-bottom: 58px;
+    }
+    .p-pric.person{
+        margin-left: 0;
+        max-width: 254px;
+        margin-top: 14px;
+        margin-bottom: 34px;
+    }
+    .price {
+        margin-left: 0;
+        width: 205px;
+        height: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        background: #EEEEEE;
+        border-radius: 5px;
+    }
+    .h2-price {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 1.5;
+        color: #263238;
+    }
+    .p-price {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #546269;
     }
 }
 @media (min-width:1599px){
@@ -1630,5 +2005,105 @@ header > .container{
         font-size: 20px;
         line-height: 1.5;
         color: #8F95A5;
+    }
+    /*pricing*/
+    .title-pric{
+        margin-bottom: 60px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 1.5;
+    }
+    .Pricing {
+        text-align: center;
+        padding-top: 180px;
+    }
+    .Pricing>.container {
+        max-width: 1338px;
+    }
+    .prics {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+    }
+    .svg-pric.self{
+        width: 426px;
+        height: 320px;
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .svg-pric.live{
+        width: 426px;
+        height: 320px;
+        margin-top: 0;
+        margin-bottom: 31px;
+    }
+    .svg-pric.person{
+        width: 426px;
+        height: 320px;
+        margin-bottom: 31px;
+    }
+    .h2-pric {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 1.5;
+        text-align: start;
+        color: #263238;
+    }
+    .h2-pric.pers{
+        max-width: 245px;
+    }
+    .p-pric{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: start;
+
+        color: #8F95A5;
+    }
+    .p-pric.self{
+        margin-left: 0;
+        max-width: 426px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .p-pric.live{
+        margin-left: 0;
+        max-width: 420px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .p-pric.person{
+        margin-left: 0;
+        max-width: 426px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .price {
+        margin-left: 0;
+        width: 260px;
+        height: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        background: #EEEEEE;
+        border-radius: 5px;
+    }
+    .h2-price {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5;
+        color: #263238;
+    }
+    .p-price {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #546269;
+    }
+    .lol1{
+        display: none;
+    }
+    .lol{
+        display: block;
     }
 }
