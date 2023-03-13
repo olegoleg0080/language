@@ -330,11 +330,12 @@ header > .container{
 .number-about {
     font-weight: 600;
     font-size: 24px;
-    line-height: 3.3;
+    margin-top: 32px;
+    line-height: 1.5;
     color: #2A3246;
 }
 .p-numbers {
-    margin-top: -20px;
+    margin-top: 10px;
     font-weight: 400;
     white-space: nowrap;
     font-size: 15px;
@@ -585,7 +586,7 @@ header > .container{
     .h2-skill{
         font-weight: 600;
         font-size: 18px;
-        line-height: 4.4;
+        line-height: 1.5;
 
         color: #263238;
     }
@@ -620,13 +621,14 @@ header > .container{
         width: 185px;
         height: 185px;
         margin-top: -8px;
-        margin-bottom: -24px;
+        margin-bottom: 10px;
     }
     .p-skill {
         max-width: 190px;
         font-weight: 400;
         font-size: 12px;
         line-height: 1.5;
+        margin-top: 10px;
 
         color: #8F95A5;
     }
@@ -634,20 +636,20 @@ header > .container{
         margin-top: 5px;
         width: 182px;
         height: 182px;
-        margin-bottom: -34px;
+        margin-bottom: 0px;
     }
     .p-writing {
         max-width: 170px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .svg-reading {
         margin-top: 30px;
-        margin-bottom: 0;
+        margin-bottom: 15px;
         width: 198px;
         height: 132px;
     }
     .p-reading {
-        margin-top: 0px;
+        margin-top: 10px;
         max-width: 180px;
     }
     .skill-listening{
@@ -656,13 +658,13 @@ header > .container{
         align-items: center;
     }
     .svg-listening {
-        margin-bottom: -7px;
+        margin-bottom: 9px;
         margin-top: 38px;
         width: 206px;
         height: 137px;
     }
     .p-listening {
-        margin-top: 0px;
+        margin-top: 10px;
         max-width: 200px;
     }
     /*about*/
@@ -711,11 +713,11 @@ header > .container{
     .number-about {
         font-weight: 600;
         font-size: 24px;
-        line-height: 3.3;
+        line-height: 1.5;
         color: #2A3246;
     }
     .p-numbers {
-        margin-top: -7px;
+        margin-top: 10px;
         font-weight: 400;
         white-space: nowrap;
         font-size: 14px;
@@ -998,7 +1000,7 @@ header > .container{
         top: 180px;
         font-weight: 600;
         font-size: 20px;
-        line-height: 4;
+        line-height: 1.5;
 
         color: #263238;
     }
@@ -1036,13 +1038,14 @@ header > .container{
         width: 214px;
         height: 214px;
         margin-top: 30px;
-        margin-bottom: 2px;
+        margin-bottom: 17px;
     }
     .p-skill {
         max-width: 197px;
         font-weight: 400;
         font-size: 13px;
         line-height: 1.5;
+        margin-top: 15px;
 
         color: #8F95A5;
     }
@@ -1052,21 +1055,21 @@ header > .container{
 
         width: 200px;
         height: 200px;
-        margin-bottom: -38px;
+        margin-bottom: 0px;
     }
     .p-writing {
         max-width: 182px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .svg-reading {
         margin-top: 32px;
-        margin-bottom: 0;
+        margin-bottom: 38px;
         margin-left: -2px;
         width: 216px;
         height: 144px;
     }
     .p-reading {
-        margin-top: 0px;
+        margin-top: 10px;
         max-width: 182px;
     }
     .skill-listening{
@@ -1081,7 +1084,7 @@ header > .container{
         height: 134px;
     }
     .p-listening {
-        margin-top: -25px;
+        margin-top: 10px;
         max-width: 257px;
     }
     /*about*/
@@ -1147,11 +1150,12 @@ header > .container{
     .number-about {
         font-weight: 600;
         font-size: 24px;
-        line-height: 3.7;
+        line-height: 1.5;
+        margin-top: 20px;
         color: #2A3246;
     }
     .p-numbers {
-        margin-top: -15px;
+        margin-top: 10px;
         font-weight: 400;
         white-space: nowrap;
         font-size: 13px;
@@ -1391,7 +1395,7 @@ header > .container{
     .h2-skill{
         font-weight: 600;
         font-size: 22px;
-        line-height: 3.6;
+        line-height: 1.5;
 
         color: #263238;
     }
@@ -1429,7 +1433,7 @@ header > .container{
         width: 260px;
         height: 260px;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 15px;
     }
     .p-skill {
         max-width: 262px;
@@ -1445,21 +1449,21 @@ header > .container{
 
         width: 205px;
         height: 205px;
-        margin-bottom: -36px;
+        margin-bottom: 0px;
     }
     .p-writing {
         max-width: 245px;
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .svg-reading {
         margin-top: 16px;
-        margin-bottom: -4px;
+        margin-bottom: 32px;
         margin-left: 3px;
         width: 243px;
         height: 162px;
     }
     .p-reading {
-        margin-top: 0px;
+        margin-top: 10px;
         max-width: 239px;
     }
     .svg-listening {
@@ -1471,7 +1475,7 @@ header > .container{
         height: 169px;
     }
     .p-listening {
-        margin-top: 0px;
+        margin-top: 10px;
         max-width: 293px;
     }
     /*about*/
@@ -1537,11 +1541,12 @@ header > .container{
     .number-about {
         font-weight: 600;
         font-size: 30px;
-        line-height: 2.7;
+        line-height: 1.5;
+        margin-top: 20px;
         color: #2A3246;
     }
     .p-numbers {
-        margin-top: -10px;
+        margin-top: 10px;
         font-weight: 400;
         white-space: nowrap;
         font-size: 16px;
@@ -1996,10 +2001,11 @@ header > .container{
         font-weight: 600;
         font-size: 48px;
         line-height: 1.5;
+        margin-top: 0px;
         color: #2A3246;
     }
     .p-numbers {
-        margin-top: -10px;
+        margin-top: 10px;
         font-weight: 400;
         white-space: normal;
         font-size: 20px;
