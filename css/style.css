@@ -9,7 +9,9 @@ body{
     font-family: Poppins;
     margin: 0;
 }
-
+svg{
+    display: block;
+}
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
@@ -242,6 +244,7 @@ header > .container{
     height: 213px;
     margin-top: 8px;
     margin-bottom: 10px;
+    margin-left: 39px;
 }
 .p-skill {
     max-width: 258px;
@@ -253,6 +256,7 @@ header > .container{
 }
 .svg-writing {
     margin-top: 16px;
+    margin-left: 44px;
     width: 204px;
     height: 204px;
     margin-bottom: 11px;
@@ -264,6 +268,7 @@ header > .container{
 .svg-reading {
     margin-top: 29px;
     margin-bottom: 20px;
+    margin-left: 29px;
     width: 236px;
     height: 157px;
 }
@@ -276,6 +281,7 @@ header > .container{
 }
 .svg-listening {
     margin-top: 33px;
+    margin-left: 29px;
     width: 232px;
     height: 154px;
 }
@@ -289,6 +295,9 @@ header > .container{
     text-align: center;
 }
 .about-us>.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
     max-width: 295px;
 }
 .title-about {
@@ -620,6 +629,7 @@ header > .container{
         width: 185px;
         height: 185px;
         margin-top: -8px;
+        margin-left: 9px;
         margin-bottom: 10px;
     }
     .p-skill {
@@ -635,6 +645,7 @@ header > .container{
         margin-top: 5px;
         width: 182px;
         height: 182px;
+        margin-left: 23px;
         margin-bottom: 0px;
     }
     .p-writing {
@@ -644,6 +655,7 @@ header > .container{
     .svg-reading {
         margin-top: 30px;
         margin-bottom: 15px;
+        margin-left: -2px;
         width: 198px;
         height: 132px;
     }
@@ -655,6 +667,7 @@ header > .container{
     }
     .svg-listening {
         margin-bottom: 9px;
+        margin-left: 12px;
         margin-top: 38px;
         width: 206px;
         height: 137px;
@@ -1090,6 +1103,9 @@ header > .container{
     }
     .about-us>.container{
         max-width: 694px;
+        display: flex;
+        flex-direction: row;
+        text-align: start;
     }
     .title-about {
         display: none;
@@ -1100,8 +1116,8 @@ header > .container{
     }
     .about-cont {
         display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
+        flex-direction: column;
+        align-items: start;
     }
     .title-about2{
         font-weight: 600;
@@ -1119,9 +1135,9 @@ header > .container{
     .about-svg {
         width: 295px;
         height: 295px;
-        margin-bottom: -160px;
-        margin-top: 0;
+        margin-top: 32px;
         margin-left: 78px;
+        margin-bottom: 0;
     }
     .about-p {
         max-width: 321px;
@@ -1491,8 +1507,6 @@ header > .container{
     }
     .about-cont {
         display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
     }
     .title-about2{
         font-weight: 600;
@@ -1510,8 +1524,7 @@ header > .container{
     .about-svg {
         width: 336px;
         height: 336px;
-        margin-bottom: -136px;
-        margin-top: 0;
+        margin-top: 18px;
         margin-left: 75px;
     }
     .about-p {
@@ -1937,6 +1950,7 @@ header > .container{
     }
     .about-us>.container{
         max-width: 1338px;
+        display: flex;
     }
     .title-about {
         display: none;
@@ -1947,8 +1961,6 @@ header > .container{
     }
     .about-cont {
         display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
     }
     .title-about2{
         font-weight: 600;
@@ -1966,7 +1978,6 @@ header > .container{
     .about-svg {
         width: 540px;
         height: 540px;
-        margin-bottom: -197px;
         margin-top: 0;
         margin-left: 146px;
     }
