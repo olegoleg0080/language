@@ -12,6 +12,9 @@ body{
 svg{
     display:block;
 }
+.svg-pric{
+    display: inline-block;
+}
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
@@ -447,6 +450,77 @@ header > .container{
     line-height: 1.5;
     color: #546269;
 }
+/* contact */
+.contact {
+    display: block;
+    padding-top: 72px;
+}
+.contact.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h2-contact {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 3.3;
+    text-align: center;
+    color: #000000;
+}
+h2-contact2{
+    display: none;
+}
+.svg-contact {
+    width: 253px;
+    height: 228px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-left: 29px;
+}
+.contact-cont {
+    display: flex;
+    flex-direction: column;
+}
+.p-contact {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 287px;
+    
+    color: #8F95A5;
+}
+.input-block {
+    display: flex;
+    flex-direction: column;
+}
+.input-contact {
+    margin-top: 31px;
+    margin-bottom: 17px;
+    padding:  0 0 0 26px;
+    width: 291px;
+    height: 50px;
+
+    border: 1px solid #8F95A5;
+    border-radius: 5px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+.input-btn {
+    width: 290px;
+    height: 60px;
+
+    background: #263238;
+    border-radius: 5px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
 /*adaptive*/
 @media (min-width:574px){
     header{
@@ -820,6 +894,81 @@ header > .container{
         font-size: 16px;
         line-height: 1.5;
         color: #546269;
+    }
+    /* contact */
+    .contact {
+        display: block;
+        padding-top: 163px;
+    }
+    .contact > .container {
+        max-width: 511px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h2-contact {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.7;
+        text-align: center;
+        color: #000000;
+    }
+    .svg-contact {
+        width: 358px;
+        height: 322px;
+        margin-top: 83px;
+        margin-bottom: 34px;
+        margin-left: 82px;
+    }
+    .contact-cont {
+        display: flex;
+        flex-direction: column;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        max-width: 469px;
+
+        color: #8F95A5;
+    }
+    .input-block {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+        margin-bottom: 144px;
+    }
+    .input-contact {
+        padding:  0 0 0 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 511px;
+        height: 60px;
+
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #8F95A5;
+    }
+    .input-btn {
+        position: absolute;
+        width: 193px;
+        height: 60px;
+        right: 0;
+        bottom: 0;
+        background: #263238;
+        border-radius: 10px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #FFFFFF;
     }
 }
 @media (min-width:767px){
@@ -1264,6 +1413,87 @@ header > .container{
         line-height: 1.5;
         color: #546269;
     }
+    /* contact */
+    .contact {
+        display: block;
+        padding-top: 65px;
+    }
+    .contact > .container {
+        max-width: 703px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .h2-contact {
+        display: none;
+    }
+    .h2-contact2{
+        display: block;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 2.6;
+        text-align: start;
+        color: #000000;
+    }
+    .svg-contact {
+        width: 233px;
+        height: 210px;
+        margin-top: 36px;
+        margin-bottom: 0;
+        margin-right: 36px;
+        margin-left: 0;
+    }
+    .contact-cont {
+        display: flex;
+        flex-direction: column;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        text-align: start;
+        max-width: 392px;
+
+        color: #8F95A5;
+    }
+    .input-block {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        column-gap: 6px;
+        margin-top: 26px;
+        margin-bottom: 29px;
+    }
+    .input-contact {
+        padding:  0 0 0 24px;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 283px;
+        height: 50px;
+
+        border: 1px solid #8F95A5;
+        border-radius: 5px;
+
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #8F95A5;
+    }
+    .input-btn {
+        position: relative;
+        width: 145px;
+        height: 50px;
+        right: 0;
+        bottom: 0;
+        background: #263238;
+        border-radius: 5px;
+
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #FFFFFF;
+    }
 }
 @media (min-width:991px){
     header{
@@ -1653,6 +1883,85 @@ header > .container{
         font-size: 16px;
         line-height: 1.5;
         color: #546269;
+    }
+    /* contact */
+    .contact {
+        display: block;
+        padding-top: 140px;
+    }
+    .contact > .container {
+        max-width: 957px;
+    }
+
+    .h2-contact {
+        display: none;
+    }
+    .h2-contact2{
+        display: block;
+        margin-left: 14px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 2.2;
+        text-align: start;
+        color: #000000;
+    }
+    .svg-contact {
+        width: 312px;
+        height: 281px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 109px;
+        margin-left: 0;
+    }
+    .contact-cont {
+        display: flex;
+        flex-direction: column;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: start;
+        max-width: 392px;
+
+        color: #8F95A5;
+    }
+    .input-block {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        column-gap: 14px;
+        margin-top: 34px;
+        margin-bottom: 37px;
+    }
+    .input-contact {
+        padding:  0 0 0 38px;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 323px;
+        height: 60px;
+
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #8F95A5;
+    }
+    .input-btn {
+        position: relative;
+        width: 193px;
+        height: 60px;
+        right: 0;
+        bottom: 0;
+        background: #263238;
+        border-radius: 10px;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #FFFFFF;
     }
 }
 @media (min-width:1599px){
@@ -2117,5 +2426,78 @@ header > .container{
     }
     .lol{
         display: block;
+    }
+    /* contact */
+    .contact {
+        display: block;
+        padding-top: 180px;
+    }
+    .contact > .container {
+        max-width: 1338px;
+    }
+    .h2-contact2{
+        display: block;
+        margin-left: 0px;
+        margin-bottom: 60px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 1.5;
+        text-align: start;
+        color: #000000;
+    }
+    .svg-contact {
+        width: 425px;
+        height: 430px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 144px;
+        margin-left: 0;
+    }
+    .p-contact {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: start;
+        max-width: 6221px;
+
+        color: #8F95A5;
+    }
+    .input-block {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 108px;
+    }
+    .input-contact {
+        padding:  0 0 0 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 425px;
+        height: 70px;
+
+        border: 1px solid #8F95A5;
+        border-radius: 10px;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        color: #8F95A5;
+    }
+    .input-btn {
+        position: relative;
+        width: 312px;
+        height: 70px;
+        right: 0;
+        bottom: 0;
+        background: #263238;
+        border-radius: 10px;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
     }
 }
