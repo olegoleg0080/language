@@ -12,6 +12,9 @@ body{
 svg{
     display:block;
 }
+.h2-contact2{
+    display: none;
+}
 .svg-pric{
     display: inline-block;
 }
@@ -334,10 +337,10 @@ header > .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 32px;
 }
 .numb-about {
     max-width: 124px;
-    padding-top: 32px;
 }
 .number-about {
     font-weight: 600;
@@ -454,6 +457,8 @@ header > .container{
 .contact {
     display: block;
     padding-top: 72px;
+    padding-bottom: 55px;
+
 }
 .contact.container {
     display: flex;
@@ -520,6 +525,61 @@ h2-contact2{
     font-size: 14px;
     line-height: 1.5;
     color: #FFFFFF;
+}
+/*footer*/
+footer{
+    display: none;
+}
+.footer>.container {
+    max-width: 294px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer>.container>.line::before{
+    margin-bottom: 26px;
+    content: '';
+    height: 1px;
+    display: block;
+    background-color: #C4C4C4;
+}
+.logo-footer {
+    text-align: center;
+}
+.ul-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    column-gap: 10px;
+}
+.li-footer {
+    position: relative;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #8F95A5;
+}
+.li-f2::before {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 4px;
+    left: -7px;
+    display: block;
+    border-radius: 100%;
+    background-color: #8F95A5;
+    transform: translateY(140%);
+}
+.li-f3::before  {
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 4px;
+    left: -7px;
+    display: block;
+    border-radius: 100%;
+    background-color: #8F95A5;
+    transform: translateY(140%);
 }
 /*adaptive*/
 @media (min-width:574px){
@@ -1301,11 +1361,11 @@ h2-contact2{
         justify-content: start;
         margin-left: 8px;
         gap: 45px;
+        padding-top: 20px;
     }
     .numb-about {
         max-width: 131px;
         text-align: center;
-        padding-top: 20px;
     }
     .number-about {
         font-weight: 600;
@@ -1343,7 +1403,7 @@ h2-contact2{
     .svg-pric.self{
         width: 197px;
         height: 197px;
-        margin-bottom: 23px;
+        margin-bottom: 22px;
     }
     .svg-pric.live{
         width: 219px;
@@ -1354,7 +1414,7 @@ h2-contact2{
     .svg-pric.person{
         width: 210px;
         height: 210px;
-        margin-bottom: 15px;
+        margin-bottom: 11px;
     }
     .h2-pric {
         font-weight: 600;
@@ -1364,7 +1424,7 @@ h2-contact2{
         color: #263238;
     }
     .h2-pric.pers{
-        max-width: 94px;
+        max-width: 105px;
     }
     .p-pric{
         font-weight: 400;
@@ -1770,11 +1830,11 @@ h2-contact2{
         justify-content: start;
         margin-left: 7px;
         gap: 59px;
+        padding-top: 20px;
     }
     .numb-about {
         max-width: 154px;
         text-align: center;
-        padding-top: 20px;
     }
     .number-about {
         font-weight: 600;
@@ -1813,7 +1873,7 @@ h2-contact2{
         width: 222px;
         height: 222px;
         margin-top: 12px;
-        margin-bottom: 20px;
+        margin-bottom: 22px;
     }
     .svg-pric.live{
         width: 267px;
