@@ -351,10 +351,12 @@ header > .container{
 .p-numbers {
     margin-top: 10px;
     font-weight: 400;
-    white-space: nowrap;
     font-size: 15px;
     line-height: 1.5;
     color: #8F95A5;
+}
+.p-numbers.element3{
+    width: 141px;
 }
 /*pricing*/
 .title-pric{
@@ -860,10 +862,12 @@ footer{
     .p-numbers {
         margin-top: 10px;
         font-weight: 400;
-        white-space: nowrap;
         font-size: 14px;
         line-height: 1.5;
         color: #8F95A5;
+    }
+    .p-numbers.element3{
+        width: auto;
     }
     /*pricing*/
     .title-pric{
@@ -1376,7 +1380,6 @@ footer{
     .p-numbers {
         margin-top: 10px;
         font-weight: 400;
-        white-space: nowrap;
         font-size: 13px;
         line-height: 1.5;
         color: #8F95A5;
@@ -1845,7 +1848,6 @@ footer{
     .p-numbers {
         margin-top: 10px;
         font-weight: 400;
-        white-space: nowrap;
         font-size: 16px;
         line-height: 1.5;
         color: #8F95A5;
