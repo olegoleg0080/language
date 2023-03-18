@@ -963,6 +963,7 @@ footer{
     .contact {
         display: block;
         padding-top: 163px;
+        padding-bottom: 144px;
     }
     .contact > .container {
         max-width: 511px;
@@ -987,7 +988,6 @@ footer{
     .contact-cont {
         display: flex;
         flex-direction: column;
-        padding-bottom: 144px;
     }
     .p-contact {
         font-weight: 400;
@@ -1479,6 +1479,7 @@ footer{
     .contact {
         display: block;
         padding-top: 65px;
+        padding-bottom: 0;
     }
     .contact > .container {
         max-width: 703px;
