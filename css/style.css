@@ -987,6 +987,7 @@ footer{
     .contact-cont {
         display: flex;
         flex-direction: column;
+        padding-bottom: 144px;
     }
     .p-contact {
         font-weight: 400;
@@ -1002,7 +1003,6 @@ footer{
         display: flex;
         flex-direction: row;
         margin-top: 60px;
-        margin-bottom: 144px;
     }
     .input-contact {
         padding:  0 0 0 25px;
@@ -1509,6 +1509,7 @@ footer{
     .contact-cont {
         display: flex;
         flex-direction: column;
+        padding-bottom: 29px;
     }
     .p-contact {
         font-weight: 400;
@@ -1525,7 +1526,6 @@ footer{
         flex-direction: row;
         column-gap: 6px;
         margin-top: 26px;
-        margin-bottom: 29px;
     }
     .input-contact {
         padding:  0 0 0 24px;
@@ -1977,6 +1977,7 @@ footer{
     .contact-cont {
         display: flex;
         flex-direction: column;
+        padding-bottom: 37px;
     }
     .p-contact {
         font-weight: 400;
@@ -1993,7 +1994,6 @@ footer{
         flex-direction: row;
         column-gap: 14px;
         margin-top: 34px;
-        margin-bottom: 37px;
     }
     .input-contact {
         padding:  0 0 0 38px;
@@ -2529,7 +2529,6 @@ footer{
         flex-direction: row;
         column-gap: 30px;
         margin-top: 30px;
-        margin-bottom: 108px;
     }
     .input-contact {
         padding:  0 0 0 30px;
