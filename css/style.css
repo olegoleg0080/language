@@ -529,7 +529,7 @@ h2-contact2{
     color: #FFFFFF;
 }
 /*footer*/
-.line-footer::before{
+.footer >.container::before{
     margin: 0 auto;
     max-width: 290px;
     margin-bottom: 26px;
@@ -1032,7 +1032,7 @@ h2-contact2{
         color: #FFFFFF;
     }
     /*footer*/
-    .line-footer::before{
+    .footer >.container::before{
         max-width: 513px;
         margin-bottom: 24px;
     }
@@ -1606,7 +1606,7 @@ h2-contact2{
         color: #FFFFFF;
     }
     /*footer*/
-    .line-footer::before{
+    .footer >.container::before{
         max-width: 690px;
         margin-bottom: 24px;
     }
@@ -2114,7 +2114,7 @@ h2-contact2{
         color: #FFFFFF;
     }
     /*footer*/
-    .line-footer::before{
+    .footer >.container::before{
         max-width: 929px;
         margin-bottom: 22px;
     }
@@ -2690,7 +2690,7 @@ h2-contact2{
         color: #FFFFFF;
     }
     /*footer*/
-    .line-footer::before{
+    .footer >.container::before{
         max-width: 1338px;
         margin-bottom: 22px;
     }
