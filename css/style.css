@@ -538,11 +538,11 @@ h2-contact2{
     display: block;
     background-color: #C4C4C4;
 }
-.footer > .container{
+.footer > .container > .footer-cont{
     display: block;
     text-align: center;
 }
-.footer > .container > a{
+.footer > .container >.footer-cont > a{
     display: inline-block;
 }
 .ul-footer {
@@ -1037,12 +1037,15 @@ h2-contact2{
         margin-bottom: 24px;
     }
     .footer > .container{
+        max-width: 513px;
+    }
+    .footer > .container >.footer-cont{
         align-items: center;
         max-width: 513px;
         display: flex;
         text-align: start;
     }
-    .footer > .container > a{
+    .footer > .container >.footer-cont > a{
         display: inline-block;
         margin: 0;
     }
@@ -1607,7 +1610,8 @@ h2-contact2{
         max-width: 690px;
         margin-bottom: 24px;
     }
-    .footer > .container{
+    .footer > .container,
+    .footer > .container >.footer-cont{
         max-width: 693px;
     }
     .ul-footer {
@@ -2114,7 +2118,8 @@ h2-contact2{
         max-width: 929px;
         margin-bottom: 22px;
     }
-    .footer > .container{
+    .footer > .container,
+    .footer > .container >.footer-cont{
         max-width: 929px;
     }
     .ul-footer {
@@ -2689,7 +2694,8 @@ h2-contact2{
         max-width: 1338px;
         margin-bottom: 22px;
     }
-    .footer > .container{
+    .footer > .container,
+    .footer > .container >.footer-cont{
         max-width: 1338px;
     }
     .ul-footer {
