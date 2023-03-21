@@ -107,7 +107,9 @@ header > .container{
 }
 .madal-container{
     max-width: 291px;
-    
+}
+.madal > .container{
+    margin: 0 14px;
 }
 .madal {
     overflow: auto;
@@ -615,6 +617,9 @@ h2-contact2{
     .madal-container{
         max-width: 510px;
     }
+    .madal > .container{
+        margin: 0 33px;
+    }
     .madal {
         position: relative;
         padding-top: 39px;
@@ -1120,6 +1125,9 @@ h2-contact2{
     }
     .madal-container.container{
         margin: 0;
+    }
+    .madal > .container{
+        margin: 0 39px;
     }
     .madal {
         display: flex;
